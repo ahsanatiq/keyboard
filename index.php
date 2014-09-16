@@ -13,23 +13,3 @@ $commands = $kb->makeCommands($sentence);
 <div>
     <?php echo $commands; ?>
 </div>
-<?
-$sentence = "7&";
-$commands = $kb->makeCommands($sentence);
-?>
-<div>
-    <?php echo $sentence; ?>
-</div>
-<div>
-    <?php echo $commands; ?>
-</div>
-<?
-$sentence = "ABCD";
-$commands = $kb->makeCommands($sentence);
-?>
-<div>
-    <?php echo $sentence; ?>
-</div>
-<div>
-    <?php echo $commands; ?>
-</div>
